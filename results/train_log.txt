@@ -1,0 +1,95 @@
+[train] Device: cuda  |  GPU: NVIDIA GeForce RTX 4050 Laptop GPU
+[train] Computing Sentence-BERT item embeddings...
+[train] Pre-computing val negatives (one-time)...
+[train] Pre-computing test negatives (one-time)...
+[train] Negatives ready. Starting training...
+
+
+============================================================
+  LightGCN  |  layers=3  dim=64  lr=0.001  semantic=True
+============================================================
+
+Epoch    5/200  loss=0.2778  time=20.8s  HR@10: 0.5085  HR@20: 0.6989  NDCG@10: 0.2858  NDCG@20: 0.3340
+  [BEST] NDCG@10=0.2858  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   10/200  loss=0.2258  time=22.9s  HR@10: 0.5750  HR@20: 0.7612  NDCG@10: 0.3239  NDCG@20: 0.3708
+  [BEST] NDCG@10=0.3239  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   15/200  loss=0.1915  time=20.4s  HR@10: 0.6027  HR@20: 0.7949  NDCG@10: 0.3432  NDCG@20: 0.3919
+  [BEST] NDCG@10=0.3432  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   20/200  loss=0.1706  time=21.1s  HR@10: 0.6265  HR@20: 0.8136  NDCG@10: 0.3605  NDCG@20: 0.4081
+  [BEST] NDCG@10=0.3605  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   25/200  loss=0.1558  time=20.3s  HR@10: 0.6502  HR@20: 0.8263  NDCG@10: 0.3753  NDCG@20: 0.4201
+  [BEST] NDCG@10=0.3753  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   30/200  loss=0.1448  time=20.3s  HR@10: 0.6708  HR@20: 0.8378  NDCG@10: 0.3891  NDCG@20: 0.4316
+  [BEST] NDCG@10=0.3891  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   35/200  loss=0.1370  time=20.4s  HR@10: 0.6812  HR@20: 0.8429  NDCG@10: 0.3991  NDCG@20: 0.4403
+  [BEST] NDCG@10=0.3991  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   40/200  loss=0.1300  time=20.4s  HR@10: 0.6920  HR@20: 0.8474  NDCG@10: 0.4056  NDCG@20: 0.4451
+  [BEST] NDCG@10=0.4056  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   45/200  loss=0.1252  time=20.7s  HR@10: 0.6978  HR@20: 0.8520  NDCG@10: 0.4106  NDCG@20: 0.4498
+  [BEST] NDCG@10=0.4106  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   50/200  loss=0.1212  time=22.3s  HR@10: 0.7021  HR@20: 0.8548  NDCG@10: 0.4148  NDCG@20: 0.4537
+  [BEST] NDCG@10=0.4148  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   55/200  loss=0.1189  time=20.4s  HR@10: 0.7029  HR@20: 0.8587  NDCG@10: 0.4166  NDCG@20: 0.4562
+  [BEST] NDCG@10=0.4166  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   60/200  loss=0.1176  time=20.5s  HR@10: 0.7049  HR@20: 0.8610  NDCG@10: 0.4175  NDCG@20: 0.4573
+  [BEST] NDCG@10=0.4175  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   65/200  loss=0.1154  time=20.3s  HR@10: 0.7047  HR@20: 0.8613  NDCG@10: 0.4189  NDCG@20: 0.4588
+  [BEST] NDCG@10=0.4189  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   70/200  loss=0.1144  time=20.4s  HR@10: 0.7067  HR@20: 0.8633  NDCG@10: 0.4200  NDCG@20: 0.4599
+  [BEST] NDCG@10=0.4200  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   75/200  loss=0.1126  time=20.5s  HR@10: 0.7065  HR@20: 0.8640  NDCG@10: 0.4206  NDCG@20: 0.4607
+  [BEST] NDCG@10=0.4206  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   80/200  loss=0.1113  time=20.2s  HR@10: 0.7067  HR@20: 0.8650  NDCG@10: 0.4209  NDCG@20: 0.4612
+  [BEST] NDCG@10=0.4209  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   85/200  loss=0.1104  time=20.6s  HR@10: 0.7099  HR@20: 0.8659  NDCG@10: 0.4219  NDCG@20: 0.4617
+  [BEST] NDCG@10=0.4219  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   90/200  loss=0.1092  time=20.3s  HR@10: 0.7115  HR@20: 0.8674  NDCG@10: 0.4236  NDCG@20: 0.4634
+  [BEST] NDCG@10=0.4236  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch   95/200  loss=0.1087  time=20.5s  HR@10: 0.7140  HR@20: 0.8679  NDCG@10: 0.4255  NDCG@20: 0.4647
+  [BEST] NDCG@10=0.4255  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  100/200  loss=0.1075  time=20.8s  HR@10: 0.7123  HR@20: 0.8684  NDCG@10: 0.4255  NDCG@20: 0.4653
+  [BEST] NDCG@10=0.4255  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  105/200  loss=0.1066  time=20.7s  HR@10: 0.7140  HR@20: 0.8678  NDCG@10: 0.4263  NDCG@20: 0.4656
+  [BEST] NDCG@10=0.4263  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  110/200  loss=0.1057  time=20.5s  HR@10: 0.7152  HR@20: 0.8678  NDCG@10: 0.4265  NDCG@20: 0.4655
+  [BEST] NDCG@10=0.4265  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  115/200  loss=0.1055  time=21.0s  HR@10: 0.7157  HR@20: 0.8668  NDCG@10: 0.4273  NDCG@20: 0.4659
+  [BEST] NDCG@10=0.4273  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  120/200  loss=0.1056  time=20.4s  HR@10: 0.7163  HR@20: 0.8676  NDCG@10: 0.4276  NDCG@20: 0.4663
+  [BEST] NDCG@10=0.4276  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  125/200  loss=0.1037  time=20.4s  HR@10: 0.7158  HR@20: 0.8681  NDCG@10: 0.4277  NDCG@20: 0.4666
+  [BEST] NDCG@10=0.4277  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  130/200  loss=0.1044  time=20.3s  HR@10: 0.7171  HR@20: 0.8684  NDCG@10: 0.4285  NDCG@20: 0.4671
+  [BEST] NDCG@10=0.4285  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  135/200  loss=0.1037  time=20.3s  HR@10: 0.7176  HR@20: 0.8678  NDCG@10: 0.4293  NDCG@20: 0.4677
+  [BEST] NDCG@10=0.4293  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  140/200  loss=0.1032  time=20.2s  HR@10: 0.7180  HR@20: 0.8686  NDCG@10: 0.4296  NDCG@20: 0.4681
+  [BEST] NDCG@10=0.4296  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  145/200  loss=0.1025  time=20.3s  HR@10: 0.7181  HR@20: 0.8691  NDCG@10: 0.4301  NDCG@20: 0.4687
+  [BEST] NDCG@10=0.4301  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  150/200  loss=0.1027  time=20.5s  HR@10: 0.7191  HR@20: 0.8709  NDCG@10: 0.4304  NDCG@20: 0.4692
+  [BEST] NDCG@10=0.4304  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  155/200  loss=0.1014  time=20.3s  HR@10: 0.7190  HR@20: 0.8711  NDCG@10: 0.4308  NDCG@20: 0.4696
+  [BEST] NDCG@10=0.4308  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  160/200  loss=0.1035  time=20.5s  HR@10: 0.7201  HR@20: 0.8713  NDCG@10: 0.4311  NDCG@20: 0.4697
+  [BEST] NDCG@10=0.4311  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  165/200  loss=0.1021  time=20.5s  HR@10: 0.7206  HR@20: 0.8706  NDCG@10: 0.4314  NDCG@20: 0.4697
+  [BEST] NDCG@10=0.4314  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  170/200  loss=0.1018  time=20.5s  HR@10: 0.7208  HR@20: 0.8711  NDCG@10: 0.4316  NDCG@20: 0.4699
+  [BEST] NDCG@10=0.4316  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  175/200  loss=0.1020  time=21.4s  HR@10: 0.7210  HR@20: 0.8711  NDCG@10: 0.4316  NDCG@20: 0.4699
+  [BEST] NDCG@10=0.4316  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  180/200  loss=0.1015  time=30.8s  HR@10: 0.7210  HR@20: 0.8711  NDCG@10: 0.4320  NDCG@20: 0.4703
+  [BEST] NDCG@10=0.4320  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  185/200  loss=0.1013  time=20.8s  HR@10: 0.7215  HR@20: 0.8709  NDCG@10: 0.4324  NDCG@20: 0.4706
+  [BEST] NDCG@10=0.4324  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  190/200  loss=0.1009  time=20.2s  HR@10: 0.7205  HR@20: 0.8713  NDCG@10: 0.4325  NDCG@20: 0.4710
+  [BEST] NDCG@10=0.4325  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  195/200  loss=0.1007  time=20.3s  HR@10: 0.7215  HR@20: 0.8708  NDCG@10: 0.4327  NDCG@20: 0.4709
+  [BEST] NDCG@10=0.4327  saved -> checkpoints\lightgcn_sbert_best.pt
+Epoch  200/200  loss=0.1000  time=20.5s  HR@10: 0.7208  HR@20: 0.8709  NDCG@10: 0.4326  NDCG@20: 0.4710
+
+-- Final Test Evaluation --
+[TEST] HR@10: 0.6850  HR@20: 0.8481  NDCG@10: 0.4040  NDCG@20: 0.4453
+
+[train] Results saved -> results/lightgcn_sbert_results.json

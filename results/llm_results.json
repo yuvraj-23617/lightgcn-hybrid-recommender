@@ -1,0 +1,16 @@
+{
+  "model": "LLM Recommender (llama-3.3-70b-versatile)",
+  "config": {
+    "llm_model": "llama-3.1-8b-instant",
+    "n_users_evaluated": 200,
+    "temperature": 0.0,
+    "candidates_per_user": 100,
+    "note": "Same leave-one-out protocol as LightGCN"
+  },
+  "test_metrics": {
+    "HR@10": 0.71,
+    "NDCG@10": 0.31479817431336066,
+    "HR@20": 0.78,
+    "NDCG@20": 0.33258372106281103
+  }
+}

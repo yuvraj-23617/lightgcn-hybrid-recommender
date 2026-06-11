@@ -1,0 +1,16 @@
+{
+  "model": "Hybrid LightGCN+LLM (alpha=0.7)",
+  "config": {
+    "alpha": 0.7,
+    "n_users_evaluated": 200,
+    "llm_model": "llama-3.1-8b-instant",
+    "lightgcn_ckpt": "checkpoints/lightgcn_best.pt",
+    "note": "final_score = alpha*lgcn_norm + (1-alpha)*llm_score"
+  },
+  "test_metrics": {
+    "HR@10": 0.8,
+    "NDCG@10": 0.5295968745886003,
+    "HR@20": 0.93,
+    "NDCG@20": 0.5628526543740405
+  }
+}

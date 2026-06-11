@@ -1,0 +1,27 @@
+# Core ML
+torch>=2.0.0
+torchvision
+numpy
+scipy
+pandas
+scikit-learn
+
+# Graph & Embeddings
+sentence-transformers
+
+# LLM
+groq
+
+# Web UI
+streamlit
+plotly
+
+# Experiment Tracking
+tensorboard
+
+# Utilities
+tqdm
+matplotlib
+seaborn
+requests
+python-dotenv
