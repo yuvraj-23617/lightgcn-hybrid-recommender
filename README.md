@@ -53,9 +53,9 @@ Using the MovieLens-1M dataset, we reproduce and surpass the original LightGCN b
 
 Combined collaborative filtering and semantic reasoning:
 
-[
-s_{hybrid} = \alpha s_{LightGCN} + (1-\alpha)s_{LLM}
-]
+```text
+s_hybrid = α × s_LightGCN + (1 − α) × s_LLM
+```
 
 where:
 
