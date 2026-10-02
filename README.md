@@ -1,4 +1,5 @@
 # LightGCN Hybrid Recommendation System
+[📄 Read the Research Paper / Project Report](ResPaper_Report.pdf)
 
 > A graph-based recommendation system combining **LightGCN**, **Sentence-BERT semantic embeddings**, and **LLM-powered recommendation generation** to improve personalized movie recommendations on the MovieLens-1M dataset.
 
